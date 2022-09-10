@@ -12,8 +12,8 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 	{
-		(char)number;
-		putchar(number);
+		new_num = (char)number;
+		putchar(new_num);
 	}
 
 	putchar('\n');
