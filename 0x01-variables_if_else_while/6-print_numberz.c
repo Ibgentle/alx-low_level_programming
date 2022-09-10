@@ -9,12 +9,10 @@
 int main(void)
 {
 	int number;
-	int new_num;
 
 	for (number = 0; number < 10; number++)
 	{
-		new_num = (char)number;
-		putchar(new_num);
+		putchar('number');
 	}
 
 	putchar('\n');
