@@ -6,7 +6,7 @@
  *
  * @n: parameter holding argument to be checked
  *
- * Return: 0, 1 or -1 (if successful)
+ * Return: 0, 1 or -1 (and 0 at the end)
  */
 int print_sign(int n)
 {
@@ -25,5 +25,5 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-
+	return (0);
 }
