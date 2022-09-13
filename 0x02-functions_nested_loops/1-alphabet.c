@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet writes the alphabet to the stdout
+ * print_alphabet - writes the alphabet to the stdout
  *
  * Description: this prints the alphabet, in lowercase, followed by a new line.
  *
  * Return: null
  *
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char alph;
 
