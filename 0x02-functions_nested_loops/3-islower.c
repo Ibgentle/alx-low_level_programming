@@ -6,14 +6,13 @@
  *
  * @c: the char type argument function takes
  *
- * Return: 0 (if successful)
+ * Return: 0 or 1 (on successful execution)
  */
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-		_putchar('1');
+		return (1)
 	else
-		_putchar('0');
-	return (0);
+		return (0);
 
 }
