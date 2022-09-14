@@ -25,11 +25,10 @@ int print_last_digit(int n)
 		return (abs_n % 10);
 	}
 
-	else if (n == INT_MIN)
+	else if (n == (INT_MIN))
 	{
-		abs_n = (INT_MIN) - ((INT_MIN) * 2);
-		_putchar((abs_n % 10) + '0');
-		return (abs_n % 10);
+		_putchar((-(INT_MIN) % 10) + '0');
+		return (8 % 10);
 	}
 	return (0);
 }
