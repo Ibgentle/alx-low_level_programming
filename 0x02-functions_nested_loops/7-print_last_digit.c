@@ -23,5 +23,11 @@ int print_last_digit(int n)
 		_putchar((abs_n % 10) + '0');
 		return (abs_n % 10);
 	}
+
+	else if (n == INT_MIN)
+	{
+		_putchar((8 % 10) + '0');
+		return (8 % 10);
+	}
 	return (0);
 }
