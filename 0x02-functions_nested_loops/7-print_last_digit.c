@@ -13,6 +13,8 @@ int print_last_digit(int n)
 {
 	int abs_n;
 	int min_int;
+	int a;
+	min_int = INT_MIN;
 
 	if (n >= 0)
 	{
@@ -27,9 +29,9 @@ int print_last_digit(int n)
 	}
 	else if (n == INT_MIN)
 	{
-		min_int = -(n % 10);
-		_putchar(min_int + '0');
-		return (min_int % 10);
+		a = -(min_int % 10);
+		_putchar(a + '0');
+		return (a % 10);
 	}
 	return (0);
 }
