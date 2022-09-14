@@ -4,20 +4,19 @@
  *
  * Description: removes the sign of the int argument and prints the int value
  *
- * @int: the parameter holds the argument to be returned
+ * @n: the parameter holds the argument to be returned
  *
  * Return: 0, 1 or -1 (and 0 at the end)
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 	int abs_val;
 
 	if (n >= 0)
 		return (n);
 	else if (n < 0)
 	{
-		abs_value = n - (n * 2);
+		abs_val = n - (n * 2);
 		return (abs_val);
 	return (0);
 }
