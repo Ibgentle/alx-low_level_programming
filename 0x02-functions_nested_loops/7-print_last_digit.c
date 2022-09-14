@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_last_digit - function name
+ * print_last_digit - return last digit of number
  *
  * Description: prints the last digit of any integer argument fed it
  *
  * @n: the parameter holds the argument to be returned
  *
- * Return: last digit of n (if successful)
+ * Return: 0 (if successful)
  */
 int print_last_digit(int n)
 {
@@ -23,4 +23,5 @@ int print_last_digit(int n)
 		_putchar((abs_n % 10) + '0');
 		return (abs_n % 10);
 	}
+	return (0);
 }
