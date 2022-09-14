@@ -1,9 +1,3 @@
-uth: Brennan D Baraban
-
- */
-
-
-
 #include "holberton.h"
 
 
