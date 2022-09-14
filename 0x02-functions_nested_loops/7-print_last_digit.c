@@ -23,5 +23,4 @@ int print_last_digit(int n)
 		_putchar((abs_n % 10) + '0');
 		return (abs_n % 10);
 	}
-
 }
