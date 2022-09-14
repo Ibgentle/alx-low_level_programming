@@ -12,6 +12,7 @@
 int print_last_digit(int n)
 {
 	int abs_n;
+	int min_int;
 
 	if (n >= 0)
 	{
@@ -24,11 +25,11 @@ int print_last_digit(int n)
 		_putchar((abs_n % 10) + '0');
 		return (abs_n % 10);
 	}
-
-	else if (n == (INT_MIN))
+	else if (n == INT_MIN)
 	{
-		_putchar((INT_MIN % 10) + '0');
-		return (8 % 10);
+		min_int = -(n % 10);
+		_putchar(min_int + '0');
+		return (min_int % 10);
 	}
 	return (0);
 }
